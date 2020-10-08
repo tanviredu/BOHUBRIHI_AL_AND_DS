@@ -1,4 +1,6 @@
 from datetime import datetime
+import time 
+import random
 
 def sum_of_two(number1,number2):
     return int(number1)+int(number2)
@@ -18,4 +20,4 @@ def test():
 start_time = datetime.now()
 test()
 end_time = datetime.now()
-print("[+] execution time : {}".format(end_time-start_time))    
+print("[+] execution time : {}".format(end_time-start_time))   
