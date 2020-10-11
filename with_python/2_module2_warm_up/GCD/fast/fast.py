@@ -11,7 +11,7 @@
 # then in that point the divider will be the ans
 
 
-# what the lemman behind this 
+# what the lemma behind this 
 #Let a, b, q, and r be integers such that a = bq + r and b 6= 0. Then gcd(a, b) =
 #gcd(b, r).
 
@@ -21,8 +21,8 @@ def gcd_ecludian(a,b):
     while b:
         a,b = b,a%b
     return b 
-    # why a isnt it showud be b. Yes but we already assigned b to a up to this point
-    # and we b is changed to a%b
+    # why a isnt it should be b. Yes but we already assigned b to a up to this point
+    # and  b is changed to a%b
     # because we already give b to a
     # so a is the result
 
