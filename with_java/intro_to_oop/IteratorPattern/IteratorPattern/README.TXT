@@ -1,7 +1,7 @@
 ------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
+The Target of this Pattern is to  make a generic implementation of the 
+Iteration with dependency injection so that it can be possible for 
+iterating List ,Array or any kind of collection 
 ------------------------------------------------------------------------
 
 PROJECT TITLE:
